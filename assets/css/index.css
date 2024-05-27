@@ -28,6 +28,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 /* My components */
 @import "components/feed.css";
 @import "utils/utils.css";
+
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
 
@@ -54,13 +55,14 @@ html,
 }
 
 .gh-postfeed {
-    display: grid;
-    gap: 6.8vmin 4vmin;
-    padding: 8vmin 0;
+	grid-gap: 0.3vmin 4vmin;
+	display: grid;
+	gap: 0.3vmin 4vmin;
 }
 
-.gh-postfeed > *:first-child {
-    grid-column: 1 / -1;
+.gh-postfeed > .feed {
+	place-self: center;
+	width: 55%;
 }
 
 .gh-container {
