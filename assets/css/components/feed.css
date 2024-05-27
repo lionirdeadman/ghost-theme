@@ -69,10 +69,6 @@
     color: var(--orange-color);
 }
 
-.public .icon-star {
-    display: none;
-}
-
 .feed-length {
     font-size: 1.4rem;
     color: var(--secondary-text-color);
