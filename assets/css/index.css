@@ -26,7 +26,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @import "ghost/comments.css";
 
 /* My components */
-@import "components/feed.css"
+@import "components/feed.css";
 
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
