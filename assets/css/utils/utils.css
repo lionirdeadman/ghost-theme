@@ -8,5 +8,5 @@
     outline: none;
 }
 .horizontal-flip {
-	display: inline flow-root;
+    transform: rotate(180deg);
 }
