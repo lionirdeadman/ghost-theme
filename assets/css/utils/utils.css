@@ -7,3 +7,6 @@
     z-index: 50;
     outline: none;
 }
+.horizontal-flip {
+	display: inline flow-root;
+}

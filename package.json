@@ -75,6 +75,14 @@
             "xl": {
                 "width": 2000
             }
+        },
+        "custom": {
+            "season": {
+                "type": "select",
+                "options": ["Summer orange", "Summer pink", "Autumn", "Halloween", "Winter"],
+                "default": "Summer orange",
+                "description": "Define the season of the theme"
+            }
         }
     },
     "type": "module"
