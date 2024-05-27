@@ -25,7 +25,8 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @import "ghost/pagination.css";
 @import "ghost/comments.css";
 
-
+/* My components */
+@import "components/feed.css"
 
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
@@ -54,8 +55,7 @@ html,
 
 .gh-postfeed {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
-    gap: 4.8vmin 4vmin;
+    gap: 6.8vmin 4vmin;
     padding: 8vmin 0;
 }
 
