@@ -1,0 +1,19 @@
+.author-container {
+    display: grid;
+}
+.author-cover {
+	border-radius: 20px;
+	width: 100%;
+    max-width: var(--small);
+	max-height: 20vh;
+	justify-self: center;
+	margin-bottom: -110px;
+}
+.author-image {
+    height: 125px;
+    width: 125px;
+}
+.author-container.gh-page-head > p {
+    color: #181818 !important;
+    opacity: 0.8 !important;
+}
