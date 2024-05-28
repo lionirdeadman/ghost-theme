@@ -1,0 +1,18 @@
+{{!--
+Re-usable card for linking to authors
+--}}
+
+<div class="gh-page-head author-container">
+    {{#if cover_image}}
+        <img class="author-cover gh-page-image" src="{{cover_image}}" alt="{{name}}" />
+    {{/if}}
+    {{#if profile_image}}
+        <img class="author-image gh-author-image" src="{{profile_image}}" alt="{{name}}" />
+    {{/if}}
+
+    <h1>{{name}}</h1>
+    {{#if bio}}
+        <p>{{bio}}{{#match name "Lionir"}} <a href="/about/">Find out more about me.</a>{{/match}}</p>
+    {{/if}}
+
+</div>

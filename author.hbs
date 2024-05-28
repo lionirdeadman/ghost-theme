@@ -4,20 +4,9 @@
     <div class="gh-container">
 
         {{#author}}
-        <header class="gh-page-head author-container">
-            {{#if cover_image}}
-                <img class="author-cover gh-page-image" src="{{cover_image}}" alt="{{name}}" />
-            {{/if}}
-            {{#if profile_image}}
-                <img class="author-image gh-author-image" src="{{profile_image}}" alt="{{name}}" />
-            {{/if}}
 
-            <h1>{{name}}</h1>
-            {{#if bio}}
-                <p>{{bio}}</p>
-            {{/if}}
-
-        </header>
+            {{> "author-card"}} {{!-- partials/author-card.hbs --}}
+        
         {{/author}}
 
         <div class="gh-postfeed">
