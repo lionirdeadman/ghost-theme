@@ -3,9 +3,13 @@ Re-usable card for linking to authors
 --}}
 
 <div class="h-card gh-page-head author-container">
+    {{#match name "Lionir"}}
+        <div class="author-cover gh-page-image .fancy-radiant-background"></div>
+    {{else}}
     {{#if cover_image}}
         <img class="author-cover gh-page-image" src="{{cover_image}}" alt="{{name}}" />
     {{/if}}
+    {{/match}}
     {{#if profile_image}}
         <img class="author-image gh-author-image" src="{{profile_image}}" alt="{{name}}" />
     {{/if}}

@@ -28,6 +28,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 /* My components */
 @import "components/feed.css";
 @import "components/author.css";
+@import "components/about.css";
 @import "utils/utils.css";
 
 /* Main - Your styles here! Edit below
