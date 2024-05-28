@@ -55,19 +55,20 @@ html,
 }
 
 .gh-postfeed {
-	grid-gap: 0.3vmin 4vmin;
+	grid-gap: 0vmin 4vmin;
 	display: grid;
-	gap: 0.3vmin 4vmin;
+	gap: 0vmin 4vmin;
 }
 
 .gh-postfeed > .feed {
 	place-self: center;
-	width: 55%;
+    max-width: var(--small);
+    width: 95%;
 }
 
 .gh-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--large);
     margin: 0 auto;
 }
 

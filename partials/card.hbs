@@ -2,8 +2,9 @@
 Re-usable card for linking to posts
 --}}
 
-<article class="feed {{visibility}} {{post_class}}">
+<article class="h-entry feed {{visibility}} {{post_class}}">
 
+    <time class="dt-published" datetime="{{date format="YYYY-MM-DD"}}"></time>
     <div class="feed-calendar">
         <div class="feed-calendar-month">
             {{date published_at format="MMM"}}
@@ -13,12 +14,12 @@ Re-usable card for linking to posts
         </div>
     </div>
 
-    <h2 class="feed-title">{{title}}</h2>
+    <h2 class="p-name feed-title">{{title}}</h2>
 
     <div class="feed-right">
-	{{#if featured}}
-            {{> "icons/star"}}
-	{{/if}}
+        {{#if featured}}
+        {{> "icons/star"}}
+        {{/if}}
         <div class="feed-length">
             {{reading_time}}
         </div>
@@ -26,6 +27,6 @@ Re-usable card for linking to posts
 
     {{> "icons/chevron-right"}}
 
-    <a class="cover-parent" href="{{url}}" aria-label="{{title}}"></a>
+    <a class="u-url cover-parent" href="{{url}}" aria-label="{{title}}"></a>
 
 </article>

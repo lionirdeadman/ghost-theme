@@ -59,7 +59,7 @@
 .feed-right {
     display: flex;
     align-items: center;
-    transition: margin 0.2s var(--animation-base);
+    transition: margin 0.2s ease-in-out;
 }
 
 .icon-star {
@@ -71,7 +71,6 @@
 
 .feed-length {
     font-size: 1.4rem;
-    color: var(--secondary-text-color);
     white-space: nowrap;
 }
 
@@ -81,6 +80,6 @@
     width: 16px;
     height: 16px;
     color: var(--secondary-text-color);
-    transition: transform 0.2s var(--animation-base);
+    transition: transform 0.2s ease-in-out;
     transform: translateX(2rem);
 }

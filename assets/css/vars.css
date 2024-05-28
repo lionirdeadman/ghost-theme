@@ -11,6 +11,15 @@
     --color-success: #80b912;
     --color-error: #f05230;
     --orange-color: #ffc107;
+    --light-gray-color: #e6e6e6;
+
+    /* Seasons
+    # Summer orange ca1300 f05000
+    # Summer pink   d75090 f9426f
+    # Autumn        731c12 b34410
+    # Spooky        8410cc cc10b6
+    # Winter        008dc9 00b8c9
+    */
 
     /* Fonts */
     --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
