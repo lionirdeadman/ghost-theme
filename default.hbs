@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset "built/index.css"}}" />
     <script src="{{asset "built/index.js"}}" defer></script>
+    {{#match @custom.season "Winter"}}
+    <!-- Snow fall by https://www.zachleat.com/  -->
+    <script defer type="module" src="{{asset "js/snow.js"}}"></script>
+    <script type="module" defer>
+    const snow = document.createElement('snow-fall');
+    const selection = document.querySelector("html.summer-orange body.page-template.page-about.tag-about div.gh-viewport main.gh-main article.gh-article.post.tag-about.no-image div.gh-content.gh-canvas");
+    selection.prepend(snow)
+    </script>
+    {{/#match}}
 
     <title>{{meta_title}}</title>
 
