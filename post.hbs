@@ -77,7 +77,7 @@
 
         {{#get "posts" limit="10" filter="tag:{{primary_tag.slug}}+id:-{{id}}" include="tags" as |related|}}
         {{#if related}}
-            <div class="related-wrapper gh-canvas">
+            <div class="related-wrapper">
                 <h3 class="related-title">You might also like...</h3>
                 <div class="gh-postfeed">
                     {{#foreach posts}}
