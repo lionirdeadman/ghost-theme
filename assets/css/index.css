@@ -34,6 +34,14 @@ production stylesheet in assets/built/screen.css using: npm run dev
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
 
+@font-face {
+    font-family: Shantell Sans;
+    src: url('../fonts/ShantellSans.woff2') format('woff2');
+    font-weight: 300 400 500 600 700 800;
+    font-style: normal oblique;
+    font-display: swap;
+}
+
 html,
 .gh-viewport {
     display: flex;
@@ -180,6 +188,10 @@ html,
 .gh-header {
     padding: 0 0 8vmin 0;
     text-align: center;
+}
+
+.gh-title {
+    text-wrap: balance;
 }
 
 .gh-post-meta {
