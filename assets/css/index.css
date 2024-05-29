@@ -222,6 +222,7 @@ html,
     border-radius: 100%;
     overflow: hidden;
     object-fit: cover;
+    z-index: 1;
 }
 
 .gh-author-meta {

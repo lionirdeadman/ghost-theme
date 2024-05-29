@@ -4,8 +4,10 @@ Re-usable card for linking to authors
 
 <div class="h-card gh-page-head author-container">
     {{#match @custom.season "Winter"}}
-        <snow-fall></snow-fall>
-    {{else}}{{/match}}
+    {{#match name "Lionir"}}
+        <snow-fall mode="element" class="author-cover gh-page-image fancy-radiant-background"></snow-fall>
+    {{/match}}
+    {{else}}
     {{#match name "Lionir"}}
         <div class="author-cover gh-page-image fancy-radiant-background"></div>
     {{else}}
