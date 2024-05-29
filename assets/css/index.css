@@ -36,7 +36,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 
 @font-face {
     font-family: Shantell Sans;
-    src: url('../fonts/ShantellSans.woff2') format('woff2');
+    src: url('../font/ShantellSans.woff2') format('woff2');
     font-weight: 300 400 500 600 700 800;
     font-style: normal oblique;
     font-display: swap;
