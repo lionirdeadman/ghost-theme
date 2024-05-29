@@ -97,10 +97,6 @@ html,
 /* Index
 /* ---------------------------------------------------------- */
 
-/* .gh-card:not(:first-child) {
-    margin: 8vmin auto 0;
-} */
-
 .gh-card-link {
     display: flex;
     flex-direction: column;
@@ -117,7 +113,6 @@ html,
 .gh-card-image:first-of-type {
     aspect-ratio: 16 / 9;
 }
-
 
 .gh-card-meta {
     display: block;

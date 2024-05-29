@@ -21,7 +21,7 @@
 }
 
 .gh-announcement-bar {
-    background-color: var(--color-base);
+    background-color: var(--color-base) !important;
 }
 
 /* Brand
