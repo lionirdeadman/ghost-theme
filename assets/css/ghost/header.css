@@ -22,7 +22,7 @@
 
 .gh-announcement-bar {
     background-color: var(--color-base) !important;
-    color: var(--color-bg)
+    color: var(--color-bg) !important;
 }
 
 /* Brand
