@@ -1,0 +1,9 @@
+/* Gradient for logo */
+
+#fade-stop-1 {
+    stop-color: var(--color-primary-season);
+}
+  
+#fade-stop-2 {
+    stop-color: var(--color-secondary-season);
+}
