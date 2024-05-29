@@ -85,16 +85,17 @@
 .gh-content blockquote {
     position: relative;
     font-style: italic;
+    padding-left: 20px;
 }
 
 .gh-content blockquote::before {
     content: "";
     position: absolute;
-    left: -1.5em;
+    left: 0;
     top: 0;
     bottom: 0;
     width: 0.3rem;
-    background: var(--color-primary);
+    background: var(--color-base);
 }
 
 @media (max-width: 650px) {

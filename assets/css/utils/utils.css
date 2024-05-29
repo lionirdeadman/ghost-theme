@@ -18,4 +18,5 @@
                         radial-gradient(74% 86% at 67% 38%, rgba(var(--color-secondary-season-rgb), 0.37) 24%, rgba(var(--color-secondary-season-rgb), 0) 100%),
                         linear-gradient(125deg, rgba(var(--color-primary-season-rgb), 1) 1%, rgba(var(--color-secondary-season-rgb), 1) 100%);
     border-radius: 20px;
+    min-height: 200px;
 }

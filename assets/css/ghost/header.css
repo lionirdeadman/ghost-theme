@@ -20,6 +20,9 @@
     grid-auto-flow: row dense;
 }
 
+.gh-announcement-bar {
+    background-color: var(--color-base);
+}
 
 /* Brand
 /* ---------------------------------------------------------- */
