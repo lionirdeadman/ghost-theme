@@ -14,6 +14,6 @@
     width: 125px !important;
 }
 .author-container.gh-page-head > p {
-    color: #181818 !important;
+    color: var(--color-base) !important;
     opacity: 0.8 !important;
 }
