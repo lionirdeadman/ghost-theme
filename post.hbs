@@ -69,7 +69,7 @@
             {{/foreach}}
         </div>
 
-        {{#get "posts" limit="5" filter="tags:[{{post.tags}}]+id:-{{post.id}}" as |related|}}
+        {{#get "posts" limit="5" filter="tags:[{{tags}}]+id:-{{id}}" as |related|}}
         {{#if related}}
             <section class="related-wrapper gh-canvas">
                 <h3 class="related-title">You might also like...</h3>
@@ -91,18 +91,5 @@
     </footer>
 
 </article>
-
-<aside class="gh-readmore">
-    <div class="gh-readmore-inner gh-container">
-        <div class="gh-readmore-next">
-            {{#next_post}}<a href="{{url}}">{{> "icons/arrow-left"}} <h4>{{title}}</h4></a>{{/next_post}}
-        </div>
-        <div class="gh-readmore-prev">
-            {{#prev_post}}<a href="{{url}}">
-                <h4>{{title}}</h4> {{> "icons/arrow-right"}}
-            </a>{{/prev_post}}
-        </div>
-    </div>
-</aside>
 
 {{/post}}
