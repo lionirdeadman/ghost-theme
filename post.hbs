@@ -8,6 +8,8 @@
         <span class="gh-post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull">&bull;</span> {{reading_time}} <span class="bull">&bull;</span> <span>in {{#primary_tag}}<a class="post-tag bold underlined tag-{{slug}}" href="{{url}}" title="{{name}}">{{name}}</a>{{/primary_tag}}</span></span>
         <h1 class="gh-title">{{title}}</h1>
 
+        <p>Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}</p>
+
         {{#if custom_excerpt}}
         <p class="gh-excerpt">{{custom_excerpt}}</p>
         {{/if}}
@@ -62,12 +64,6 @@
     </div>
 
     <footer class="gh-footer gh-canvas">
-
-        <div class="gh-post-authors">
-            {{#foreach authors}}
-                {{> "author-card"}} {{!-- partials/author-card.hbs --}}
-            {{/foreach}}
-        </div>
 
         {{#if comments}}
         <section class="gh-post-comments">
