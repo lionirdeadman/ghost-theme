@@ -40,6 +40,10 @@
 /* Content & Typography
 /* ---------------------------------------------------------- */
 
+.gh-content{
+    text-align: justify;
+}
+
 .gh-content > * + * {
     margin-top: 4vmin;
 }
