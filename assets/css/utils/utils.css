@@ -7,10 +7,12 @@
     z-index: 50;
     outline: none;
 }
+
 .horizontal-flip {
     transform: rotate(180deg);
     display: inline-block;
 }
+
 .fancy-radiant-background {
     background-image: radial-gradient(70% 53% at 36% 76%, rgba(var(--color-primary-season-rgb), 1) 0%, rgba(var(--color-secondary-season-rgb), 0) 100%),
                         radial-gradient(21% 37% at 72% 23%, rgba(var(--color-secondary-season-rgb), 0.61) 24%, rgba(var(--color-secondary-season-rgb), 0) 100%),
@@ -19,4 +21,12 @@
                         linear-gradient(125deg, rgba(var(--color-primary-season-rgb), 1) 1%, rgba(var(--color-secondary-season-rgb), 1) 100%);
     border-radius: 20px;
     min-height: 200px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.underlined {
+    text-decoration-line: underline;
 }
