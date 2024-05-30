@@ -89,11 +89,6 @@ hr {
     opacity: 0.2;
 }
 
-::selection {
-    text-shadow: none;
-    background: #cbeafb;
-}
-
 mark {
     background-color: #fdffb6;
 }
