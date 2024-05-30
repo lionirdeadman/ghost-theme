@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html {{#match @custom.season "Summer orange"}}class="summer-orange"{{/match}}{{#match @custom.season "Summer pink"}}class="summer-pink"{{/match}}{{#match @custom.season "Autumn"}}class="autumn"{{/match}}{{#match @custom.season "Halloween"}}class="halloween"{{/match}}{{#match @custom.season "Winter"}}class="winter"{{/match}}lang="{{@site.locale}}">
+<html {{#match @custom.season "Summer orange"}}class="summer-orange"{{/match}}{{#match @custom.season "Summer pink"}}class="summer-pink"{{/match}}{{#match @custom.season "Autumn"}}class="autumn"{{/match}}{{#match @custom.season "Halloween"}}class="halloween"{{/match}}{{#match @custom.season "Winter"}}class="winter"{{/match}} lang="{{@site.locale}}">
 <head>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="dark light"/>
+    <meta name="theme-color" content="{{#match @custom.season "Summer orange"}}#dd1803{{/match}}{{#match @custom.season "Summer pink"}}#c91269{{/match}}{{#match @custom.season "Autumn"}}#d95313{{/match}}{{#match @custom.season "Halloween"}}#8410cc{{/match}}{{#match @custom.season "Winter"}}#00b8c9{{/match}}" />
+    <!-- Verification links -->
+    <link href="https://hachyderm.io/@lio" rel="me">
+    <meta name="google-site-verification" content="45TezZMsSoY5qA7wC4E98BjjNJ_wUyJehNrI0G5Zh7U" />
+    <meta name="msvalidate.01" content="0E905D484614E7AD2C88CEE98F6EC92E" />
+    <!-- JS/CSS/Fonts -->
     <link rel="stylesheet" href="{{asset "built/index.css"}}" />
     <script src="{{asset "built/index.js"}}" defer></script>
     <link rel="preconnect" href="https://fonts.bunny.net">

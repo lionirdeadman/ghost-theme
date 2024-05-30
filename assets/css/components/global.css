@@ -116,7 +116,7 @@ ul:not([class]) li + li {
 }
 
 a:not([class]) {
-    color: var(--color-primary-season);
+    color: var(--color-link);
     font-weight: 600;
     text-decoration-skip-ink: auto;
 }

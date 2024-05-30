@@ -1,7 +1,7 @@
 {
     "name": "lion-theme",
     "description": "The theme for lionir.ca based on the starter theme from Ghost Foundation.",
-    "demo": "https://blog.lionir.ca",
+    "demo": "https://lionir.ca",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=5.0.0"
