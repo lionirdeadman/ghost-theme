@@ -65,7 +65,7 @@ html,
 .gh-postfeed > .feed {
 	place-self: center;
     max-width: var(--small);
-    width: 95%;
+    width: 100%;
 }
 
 .gh-container {
