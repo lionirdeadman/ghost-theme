@@ -197,6 +197,8 @@ html,
 
 .gh-excerpt {
     text-align: justify;
+    margin-top: 1em;
+    margin-bottom: -1em;
 }
 
 .gh-feature-image {
