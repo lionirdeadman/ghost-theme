@@ -19,6 +19,10 @@
         var(--full) [full-end];
 }
 
+.kg-content-wide .kg-header-card-content .kg-header-card-image {
+	height: 850px !important;
+}
+
 .gh-canvas > * {
     grid-column: main-start / main-end;
 }
