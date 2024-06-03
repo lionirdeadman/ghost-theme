@@ -19,6 +19,11 @@ Re-usable card for linking to authors
     {{#if profile_image}}
         <img class="author-image gh-author-image" src="{{img_url profile_image size="s" format="webp"}}" alt="{{name}}" />
     {{/if}}
+    {{#is "index"}}
+        <div class="season-symbol">
+            {{#match @custom.season "Summer orange"}}{{> "icons/butterfly"}}{{/match}}
+        </div>
+    {{/is}}
 
     <h1>{{name}}</h1>
     {{#if bio}}
