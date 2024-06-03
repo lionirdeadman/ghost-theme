@@ -17,3 +17,9 @@
     color: var(--color-base) !important;
     opacity: 0.8 !important;
 }
+.season-symbol {
+	position: absolute;
+	top: 20vh;
+	left: 72vw;
+	width: 450px;
+}
