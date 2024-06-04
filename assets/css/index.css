@@ -225,7 +225,7 @@ html,
     margin-bottom: 1em;
 }
 
-.clock {
+#clock {
 	font-size: 2rem;
 	border-radius: 10px;
 	background-color: var(--light-gray-color);
