@@ -225,6 +225,14 @@ html,
     margin-bottom: 1em;
 }
 
+.clock {
+	font-size: 2rem;
+	border-radius: 10px;
+	background-color: var(--light-gray-color);
+	padding: .125rem .375rem;
+	width: 10rem;
+	text-align: center;
+}
 
 /* Author Archive
 /* ---------------------------------------------------------- */
