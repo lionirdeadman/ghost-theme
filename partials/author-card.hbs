@@ -9,7 +9,13 @@ Re-usable card for linking to authors
         {{/match}}
     {{else}}
         {{#match name "Lionir"}}
-            <div class="author-cover gh-page-image fancy-radiant-background"></div>
+            <div class="author-cover gh-page-image fancy-radiant-background">
+            {{#is "index"}}
+                <div class="season-symbol">
+                    {{#match @custom.season "Summer orange"}}{{> "icons/butterfly"}}{{/match}}
+                </div>
+            {{/is}}
+            </div>
         {{else}}
         {{#if cover_image}}
             <img class="author-cover gh-page-image" src="{{cover_image}}" alt="{{name}}" />
@@ -19,11 +25,6 @@ Re-usable card for linking to authors
     {{#if profile_image}}
         <img class="author-image gh-author-image" src="{{img_url profile_image size="s" format="webp"}}" alt="{{name}}" />
     {{/if}}
-    {{#is "index"}}
-        <div class="season-symbol">
-            {{#match @custom.season "Summer orange"}}{{> "icons/butterfly"}}{{/match}}
-        </div>
-    {{/is}}
 
     <h1>{{name}}</h1>
     {{#if bio}}

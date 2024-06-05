@@ -8,6 +8,7 @@
 	max-height: 20vh;
 	justify-self: center;
 	margin-bottom: -110px !important;
+	position: relative;
 }
 .author-image {
     height: 125px !important;
@@ -18,8 +19,10 @@
     opacity: 0.8 !important;
 }
 .season-symbol {
-	position: absolute;
-	top: 20vh;
-	left: 72vw;
-	width: 450px;
+	--stop-fade-3: var(--code-bg);
+	--stop-fade-4: var(--code-bg);
+    position: absolute;
+    width: 330px;
+    right: -40px;
+	top: -15px;
 }
