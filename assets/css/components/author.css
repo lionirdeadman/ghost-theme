@@ -19,8 +19,8 @@
     opacity: 0.8 !important;
 }
 .season-symbol {
-	--stop-fade-3: var(--code-bg);
-	--stop-fade-4: var(--code-bg);
+	--stop-fade-3: var(--color-bg);
+	--stop-fade-4: var(--color-bg);
     position: absolute;
     width: 330px;
     right: -40px;
