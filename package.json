@@ -8,8 +8,8 @@
     },
     "license": "MIT",
     "scripts": {
-        "dev": "rollup -c --environment BUILD:development -w",
-        "build": "rollup -c --environment BUILD:production",
+        "dev": "rollup -c --environment BUILD:development -w && npx tailwindcss -i ./assets/css/index.css -o ./assets/built/index.css --minify",
+        "build": "rollup -c --environment BUILD:production && npx tailwindcss -i ./assets/css/index.css -o ./assets/built/index.css --minify",
         "test": "npx gscan .",
         "pretest": "npm run build"
     },
@@ -39,12 +39,15 @@
         "@rollup/plugin-commonjs": "^25.0.0",
         "@rollup/plugin-node-resolve": "^15.0.1",
         "@rollup/plugin-terser": "^0.4.0",
+        "@tailwindcss/typography": "^0.5.13",
+        "autoprefixer": "^10.4.19",
         "postcss": "^8.4.24",
         "postcss-import": "^15.1.0",
         "postcss-preset-env": "^8.0.1",
         "rollup": "^3.18.0",
         "rollup-plugin-livereload": "^2.0.5",
-        "rollup-plugin-postcss": "^4.0.2"
+        "rollup-plugin-postcss": "^4.0.2",
+        "tailwindcss": "^3.4.4"
     },
     "browserslist": [
         "defaults"
@@ -75,7 +78,13 @@
         "custom": {
             "season": {
                 "type": "select",
-                "options": ["Summer orange", "Summer pink", "Autumn", "Halloween", "Winter"],
+                "options": [
+                    "Summer orange",
+                    "Summer pink",
+                    "Autumn",
+                    "Halloween",
+                    "Winter"
+                ],
                 "default": "Summer orange",
                 "description": "Define the season of the theme"
             }

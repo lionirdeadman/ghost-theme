@@ -13,10 +13,13 @@ import postcss from 'rollup-plugin-postcss';
 import atImport from 'postcss-import';
 // Use the latest CSS features in your Rollup bundle
 import postcssPresetEnv from 'postcss-preset-env';
-
 // Development: Enables a livereload server that watches for changes to CSS, JS, and Handlbars files
 import { resolve } from "path";
 import livereload from 'rollup-plugin-livereload';
+//  Import things for TailwindCSS
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
+import tailwindConfig from './tailwind.config.js'
 
 // Rollup configuration
 export default defineConfig({
@@ -31,13 +34,7 @@ export default defineConfig({
         commonjs(), 
         nodeResolve(), 
         postcss({
-            extract: true,
-            sourceMap: true,
-            plugins: [
-                atImport(),
-                postcssPresetEnv({})
-            ], 
-            minimize: true,
+            plugins: [autoprefixer(),tailwindcss(tailwindConfig)],
         }),
         process.env.BUILD !== "production" && livereload({
             watch: resolve('.'),
