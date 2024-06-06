@@ -1,6 +1,7 @@
 .author-container {
     display: grid;
 }
+
 .author-cover {
 	border-radius: 20px;
 	width: 100%;
@@ -10,19 +11,22 @@
 	margin-bottom: -110px !important;
 	position: relative;
 }
+
 .author-image {
     height: 125px !important;
     width: 125px !important;
 }
+
 .author-container.gh-page-head > p {
     color: var(--color-base) !important;
     opacity: 0.8 !important;
 }
+
 .season-symbol {
-    position: absolute;
-    width: 330px;
-    right: -40px;
-	top: -15px;
+	position: absolute;
+	right: -5px;
+	top: 5px;
+	width: 250px;
 }
 
 /* Season symbol colours */
