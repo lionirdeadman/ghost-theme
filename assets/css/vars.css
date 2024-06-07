@@ -46,6 +46,7 @@
     
     /* Colours */
     --color-primary: var(--ghost-accent-color, #3eb0ef);
+    --color-base: #131313;
     --color-border: #ddd;
     --color-success: #80b912;
     --color-error: #f05230;
@@ -82,7 +83,7 @@
         --light-gray-color: #373737;
     }
     .summer-orange:root {
-        --color-base: #130802;
+        --color-bg: #130802;
         --light-gray-color: #220e09;
         --color-link: var(--color-secondary-season);
         scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
