@@ -6,12 +6,14 @@
     --color-bg: #ffe4e1;
     --light-gray-color: #ffd4d4;
     scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
-    background: rgba(var(--color-primary-season-rgb), 0.4);   
     --color-primary-season: #dd1803;
     --color-secondary-season: #f05000;
     --color-link: var(--color-primary-season);
     --color-primary-season-rgb: 221, 24, 3;
     --color-secondary-season-rgb: 240, 80, 0;
+}
+.summer-orange:root::selection {
+    background: rgba(var(--color-primary-season-rgb), 0.4);   
 }
 .summer-pink:root{
     --color-primary-season: #c91269;
@@ -87,8 +89,10 @@
         --light-gray-color: #220e09;
         --color-link: var(--color-secondary-season);
         scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
-        background: rgba(var(--color-secondary-season-rgb), 0.4);   
     } 
+    .summer-orange:root::selection {
+        background: rgba(var(--color-secondary-season-rgb), 0.4);   
+    }
     
     .summer-pink:root, .halloween:root, .winter:root {
         --color-link: var(--color-secondary-season);
