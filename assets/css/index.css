@@ -31,11 +31,6 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @import "components/logo.css";
 @import "utils/utils.css";
 
-/* Tailwind */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
 
