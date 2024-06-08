@@ -6,6 +6,9 @@
 *::after {
     box-sizing: border-box;
 }
+::selection {
+    background-color: var(--color-selection);
+}
 
 html {
     font-size: 62.5%;
