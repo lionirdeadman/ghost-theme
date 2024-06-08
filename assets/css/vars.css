@@ -14,32 +14,48 @@
     --color-selection: rgba(var(--color-primary-season-rgb), 0.4)
 }
 .summer-pink:root{
+    --color-bg: #ffe3f9;
+    --light-gray-color: #ffd4f8;
+    scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
     --color-primary-season: #c91269;
     --color-secondary-season: #f9426f;
     --color-link: var(--color-primary-season);
     --color-primary-season-rgb: 201, 18, 105;
     --color-secondary-season-rgb: 249, 66, 111;
+    --color-selection: rgba(var(--color-primary-season-rgb), 0.4)
 }
 .autumn:root{
+    --color-bg: #ffece3;
+    --light-gray-color: #ffe6d4;
+    scrollbar-color: var(--color-primary-season) var(--light-gray-color);
     --color-primary-season: #d95313;
     --color-secondary-season: #731c12;
     --color-link: var(--color-secondary-season);
     --color-primary-season-rgb: 217, 83, 19;
     --color-secondary-season-rgb: 115, 28, 18;
+    --color-selection: rgba(var(--color-primary-season-rgb), 0.4)
 }
 .halloween:root {
+    --color-bg: #f8e3ff;
+    --light-gray-color: #eed4ff;
+    scrollbar-color: var(--color-primary-season) var(--light-gray-color);
     --color-primary-season: #8410cc;
     --color-secondary-season: #cc10b6;
     --color-link: var(--color-primary-season);
     --color-primary-season-rgb: 132, 16, 204;
     --color-secondary-season-rgb: 204, 16, 182;
+    --color-selection: rgba(var(--color-secondary-season-rgb), 0.4)
 }
 .winter:root {
+    --color-bg: #e3efff;
+    --light-gray-color: #c0e7ff;;
+    scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
     --color-primary-season: #0077a9;
     --color-secondary-season: #00b8c9;
     --color-link: var(--color-primary-season);
     --color-primary-season-rgb: 0, 119, 169;
     --color-secondary-season-rgb: 0, 184, 201;
+    --color-selection: rgba(var(--color-secondary-season-rgb), 0.4)
 }
 
 :root {
@@ -88,12 +104,35 @@
         --color-link: var(--color-secondary-season);
         scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
         --color-selection: rgba(var(--color-secondary-season-rgb), 0.4);   
-    } 
+    }
+    .summer-pink:root {
+        --color-bg: #13020d;;
+        --light-gray-color: #220917;
+        --color-link: var(--color-secondary-season);
+        scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
+        --color-selection: rgba(var(--color-primary-season-rgb), 0.4)
+    }
     
-    .summer-pink:root, .halloween:root, .winter:root {
+    .halloween:root {
+        --color-bg: #13020d;
+        --light-gray-color: #220917;
+        --color-link: var(--color-secondary-season);
+        scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
+        --color-selection: rgba(var(--color-secondary-season-rgb), 0.4);
+    }
+    
+    .winter:root {
+        --color-bg: #020813;
+        --light-gray-color: #0b1224;
+        scrollbar-color: var(--color-secondary-season) var(--light-gray-color);
+        --color-selection: rgba(var(--color-secondary-season-rgb), 0.4);
         --color-link: var(--color-secondary-season);
     }
     .autumn:root {
+        --color-bg: #1c0a04;;
+        --light-gray-color: #2b150c;
         --color-link: var(--color-primary-season);
+        scrollbar-color: var(--color-primary-season) var(--light-gray-color);
+        --color-selection: rgba(var(--color-primary-season-rgb), 0.4)
     }
 }
