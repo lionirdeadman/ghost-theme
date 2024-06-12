@@ -1,7 +1,3 @@
-.tag-about > .gh-header {
-    display: none;
-}
-
 .tag-about > .gh-content > .kg-card {
     background-image: radial-gradient(70% 53% at 36% 76%, rgba(var(--color-primary-season-rgb), 1) 0%, rgba(var(--color-secondary-season-rgb), 0) 100%),
                       radial-gradient(21% 37% at 72% 23%, rgba(var(--color-secondary-season-rgb), 0.61) 24%, rgba(var(--color-secondary-season-rgb), 0) 100%),
