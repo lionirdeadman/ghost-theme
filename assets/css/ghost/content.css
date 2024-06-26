@@ -44,7 +44,7 @@
 /* Content & Typography
 /* ---------------------------------------------------------- */
 
-.gh-content{
+.gh-content > p {
     text-align: justify;
 }
 
@@ -112,7 +112,7 @@
     .gh-canvas ul,
     .gh-canvas dl,
     .gh-canvas p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .gh-content blockquote::before {
