@@ -180,6 +180,16 @@ figcaption {
     font-size: 20px;
 }
 
+.kg-callout-card div.kg-callout-text {
+    font-size: 1.6rem !important;
+}
+
+@media (max-width: 650px) {
+    .kg-callout-card div.kg-callout-text {
+        font-size: 1.4rem !important;
+    }
+}
+
 
 /* Card captions
 /* ---------------------------------------------------------- */
