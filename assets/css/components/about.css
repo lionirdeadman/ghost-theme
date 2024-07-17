@@ -16,4 +16,8 @@
         height: 75vh !important;
         margin-top: -10vh;
     }
+    #my-pronouns-are-hehim-nice-to-meet-you, #hi-im-lionir-but-just-can-just-call-me-lio {
+        text-align: center;
+        text-wrap: balance;
+    }
 }
