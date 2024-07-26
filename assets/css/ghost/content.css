@@ -182,6 +182,7 @@ code.language-IRC {
 
 .kg-card > .kg-bookmark-container {
 	background: var(--light-gray-color) !important;
+    color: var(--color-base) !important;
 }
 
 .kg-bookmark-title {
